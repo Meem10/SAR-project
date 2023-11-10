@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 struct PassengerInfo : Identifiable{
     var id = UUID()
     var goDate : Date
