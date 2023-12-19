@@ -34,12 +34,13 @@ import FirebaseFirestore
             }
         }
     }
+
     
     func readpassenger(goDate: Date , backDate: Date ,fromCity: String , toCity: String , passenger: Int , price: Double  ){
         let info = PassengerInfo(goDate: goDate, backDate: backDate, fromCity: fromCity, toCity: toCity, passenger: passenger, price: price)
         myInfo.append(info)
-        
     }
+
     
     func fetchDataBase() {
         dataBase.collection("users").getDocuments() { (querySnapshot, err) in
