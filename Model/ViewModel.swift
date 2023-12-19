@@ -70,7 +70,5 @@ import FirebaseFirestore
             }
         }
     }
-    
-    
 }
 
