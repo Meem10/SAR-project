@@ -80,7 +80,6 @@ struct LoginPage: View {
                 }
             }
         }
-        
     }
     func signIn(){
         Auth.auth().signIn(withEmail: email, password: password) { _, error in
