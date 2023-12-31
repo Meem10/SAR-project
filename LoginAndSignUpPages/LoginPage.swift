@@ -69,14 +69,8 @@ struct LoginPage: View {
                                 .bold()
                                 .foregroundColor(Color("Color"))
                         }
-
-                        
-                        
-                        
                     }
-                    
                     .padding(.top , 180 )
-                    
                 }
             }
         }
