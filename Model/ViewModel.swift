@@ -12,10 +12,6 @@ import FirebaseFirestore
     @Published var myInfo : [PassengerInfo] = []
     let dataBase = Firestore.firestore()
     
-    init(){
-        fetchDataBase()
-    }
-
     func updateData(passengerInfo: PassengerInfo) {
         let documentReference = dataBase.collection("users").document(passengerInfo.id.uuidString)
         
