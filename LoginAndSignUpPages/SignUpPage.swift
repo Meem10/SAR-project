@@ -116,6 +116,7 @@ struct ExtractedView: View {
         }
         .padding()
     }
+    
     func signUp(){
         Auth.auth().createUser(
              withEmail: email ,
