@@ -117,7 +117,10 @@ struct ExtractedView: View {
         .padding()
     }
     func signUp(){
-        Auth.auth().createUser(withEmail: email, password: password){ re , errors in
+        Auth.auth().createUser(
+             withEmail: email ,
+             password: password
+        ){ re , errors in
             if errors != nil{
                 print(errors!.localizedDescription )
             } else {
