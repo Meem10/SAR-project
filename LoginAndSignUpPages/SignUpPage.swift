@@ -22,9 +22,7 @@ struct SignUpPage: View {
                 .padding(.bottom , 500)
             ScrollView {
                 VStack{
-
-                    ExtractedView()
-                    
+                    ExtractedView()                    
                 }
             }.padding(.top , 250)
             
