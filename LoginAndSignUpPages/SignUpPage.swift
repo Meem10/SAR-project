@@ -9,7 +9,6 @@ import SwiftUI
 import FirebaseAuth
 
 struct SignUpPage: View {
-    
     var body: some View {
         ZStack{
             Image("BG2")
