@@ -72,9 +72,7 @@ struct ForgetPasswordPage: View {
                 print("the like was not sent!! \(error.localizedDescription)")
             } else {
                 print("the link was sent!!!")
-            }
-            
-            
+            }            
         }
         
         
