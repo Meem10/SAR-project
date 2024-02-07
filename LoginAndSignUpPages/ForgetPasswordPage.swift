@@ -66,7 +66,6 @@ struct ForgetPasswordPage: View {
         }
     }
     
-    
     func forgotPassowrd(email:String){
         Auth.auth().sendPasswordReset(withEmail: email){error in
             if let error = error {
