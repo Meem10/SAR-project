@@ -75,9 +75,6 @@ struct ForgetPasswordPage: View {
             }            
         }
         
-        
-        
-        
     }
 }
 
